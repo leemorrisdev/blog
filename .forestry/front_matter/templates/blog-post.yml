@@ -1,5 +1,5 @@
 ---
-label: Blog post
+label: post
 hide_body: false
 fields:
 - name: title
@@ -16,5 +16,3 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-pages:
-- content/Blog Posts/sample-blog-post.md
