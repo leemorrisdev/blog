@@ -1,0 +1,23 @@
+baseURL = "http://example.org/"
+languageCode = "en-gb"
+title = "Lee Morris"
+
+theme = "harbor"
+paginate = 5
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[Author]
+name = "Lee Morris"
+
+[outputs]
+  section = ["JSON", "HTML"]
+
+[[params.nav]]
+  identifier = "about"
+  name = "About"
+  icon = "fas fa-user fa-lg"
+  url = "/about/"
+  weight = 3
+
+
