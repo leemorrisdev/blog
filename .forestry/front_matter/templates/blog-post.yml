@@ -7,14 +7,16 @@ fields:
   config:
     required: false
   label: Title
-- name: created_at
+- name: date
   type: datetime
-  label: Created at
+  label: Date
   description: ''
   config:
     required: false
     date_format: 
     time_format: 
     display_utc: false
-pages:
-- content/post/sample-post.md
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
